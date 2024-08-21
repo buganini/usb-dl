@@ -1,6 +1,6 @@
 # USB
     Application: ESP32-C3
-    Provides: 2.54 1.27 1.0
+    Pinouts: 2.54 2.0 1.27 1.0
     * G: Gnd
     * +: USB D+
     * -: USB D-
@@ -8,6 +8,7 @@
 
 # ESP32
     Application: ESP32
+    Pinouts: 2.54 2.0
     * En
     * IO0
     * Gnd
