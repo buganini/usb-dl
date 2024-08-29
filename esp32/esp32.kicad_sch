@@ -2566,12 +2566,6 @@
 		(uuid "c350c1f6-9021-46fd-9c2c-cf92e5af52bd")
 	)
 	(junction
-		(at 144.018 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4b3f0a0-2eef-4365-9db3-82d8d5f16cb7")
-	)
-	(junction
 		(at 153.416 25.146)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2588,6 +2582,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d07d639c-75ac-481c-8e85-ee79ca62f7aa")
+	)
+	(junction
+		(at 144.018 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1cb5eab-12e4-4add-8b73-d495a8d29bf1")
 	)
 	(junction
 		(at 132.334 153.67)
@@ -2679,16 +2679,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.686 143.51) (xy 158.75 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0407d244-9722-4a4a-bd9b-ed6f79bf4b99")
-	)
-	(wire
-		(pts
 			(xy 130.048 25.146) (xy 141.986 25.146)
 		)
 		(stroke
@@ -2706,16 +2696,6 @@
 			(type default)
 		)
 		(uuid "07e14204-8326-4075-b537-6007489f4095")
-	)
-	(wire
-		(pts
-			(xy 144.018 143.51) (xy 147.066 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a4fc52e-8dd5-494c-a58a-809684b4fe6b")
 	)
 	(wire
 		(pts
@@ -3309,6 +3289,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.018 143.51) (xy 152.4 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f043a9dc-38ae-4213-8c11-4b42cbe1f85b")
+	)
+	(wire
+		(pts
 			(xy 117.856 63.754) (xy 124.714 63.754)
 		)
 		(stroke
@@ -3391,7 +3381,7 @@
 		(uuid "03e79dc6-db03-4f33-af03-6651defb66ae")
 	)
 	(label "EN"
-		(at 158.75 143.51 0)
+		(at 152.4 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6469,74 +6459,6 @@
 			(project "esp32"
 				(path "/2404e350-49a9-4013-9f27-301bc752cce8"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 150.876 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb2deafc-b6ea-42e4-9230-e485a98995c6")
-		(property "Reference" "R10"
-			(at 150.876 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 150.876 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 150.876 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 150.876 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 150.876 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5fea4030-d3e3-4f78-8b4b-13532d70ac50")
-		)
-		(pin "1"
-			(uuid "d5823635-0dda-43b2-998d-ba5f79bd470e")
-		)
-		(instances
-			(project "esp32"
-				(path "/2404e350-49a9-4013-9f27-301bc752cce8"
-					(reference "R10")
 					(unit 1)
 				)
 			)
